@@ -1,0 +1,57 @@
+body{
+    background: rgb(147, 224, 205);
+}
+h1{
+    background: rgb(67, 170, 144);
+    text-align: center;
+    font-family: comic Sans MS;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 45%;
+}
+p{
+    color:rgb(29, 94, 77);
+    border: 30px rgb(27, 105, 79) double;
+    width: 260px;
+    padding: 7px;
+
+}
+img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgb(105, 192, 170);
+    border-radius: 30px;
+    transition: 5s;
+}
+img:hover{
+    height: 500px;
+}
+label{
+    background-color: rgb(52, 199, 138);
+    padding: 3px;
+}
+.div1{
+    border: black solid 1px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(38,184,135,1) 100%, rgba(168,7,7,1) 100%);
+    padding-left: 20px;
+    padding-top:20px ;
+    height: 100px;
+}
+.div2{
+    border: white solid 1px;
+    padding: 4px;
+    color: white;
+    background: rgb(28,40,42);
+    background: linear-gradient(90deg, rgba(28,40,42,1) 0%, rgba(42,209,155,0.40940126050420167) 92%, rgba(38,184,135,1) 100%, rgba(34,191,147,1) 100%);
+    height: 100px;
+    margin: 50px;
+    padding: 50px;
+    border: 40px solid transparent;
+    transition: 2s;
+    cursor: pointer;
+}
+.div2:hover{
+    background-color: black;
+    border: solid white 40px;
+}
